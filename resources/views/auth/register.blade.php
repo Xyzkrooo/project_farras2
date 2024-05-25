@@ -51,8 +51,8 @@
                                 <div class="col-md-6">
                                     <select id="jenis_kelamin" class="form-select " name="jenis_kelamin" required autofocus>
                                         <option value="" disabled selected>Pilih Jenis Kelamin</option>
-                                        <option value="0" selected>Laki-laki</option>
-                                        <option value="1" selected>Perempuan</option>
+                                        <option value="0" >Laki-laki</option>
+                                        <option value="1" >Perempuan</option>
                                     </select>
 
                                     @error('jenis_kelamin')

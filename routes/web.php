@@ -24,3 +24,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //tambah di bawah ini
 route::resource('produk', App\Http\Controllers\ProdukController::class)->middleware('auth');
+
+route::resource('merek', App\Http\Controllers\MerekController::class)->middleware('auth');
+
+route::resource('barang', App\Http\Controllers\BarangController::class)->middleware('auth');
